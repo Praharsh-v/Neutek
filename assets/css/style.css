@@ -408,6 +408,13 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 #hero .carousel-control-prev, #hero .carousel-control-next {
   width: 10%;
 }
+
+@media (max-width: 768px) {
+  .hero-vid {
+    width: auto;
+    height: inherit;
+  }
+  
 #hero .carousel-control-next-icon, #hero .carousel-control-prev-icon {
   background: none;
   font-size: 48px;
