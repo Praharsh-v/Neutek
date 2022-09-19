@@ -134,6 +134,10 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 .scrolled-offset {
   margin-top: 70px;
 }
+@media (max-width: 768px) {
+  #header {
+    top: 76px;
+  }
 
 /*--------------------------------------------------------------
 # Navigation Menu
